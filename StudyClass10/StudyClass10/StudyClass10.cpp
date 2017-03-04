@@ -1,9 +1,10 @@
 // StudyClass10.cpp : 定义控制台应用程序的入口点。
 //
 
-#include "stdafx.h"
+//#include "stdafx.h"
 
 #include "TestAllClass.h"
+#include "DClassic.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -26,7 +27,8 @@ int _tmain(int argc, _TCHAR* argv[])
 //	test_class_Stock();//编程练习12-3
 //	test_class_Stack12();//编程练习12-4
 //	test_class_Queue();//编程练习12-5
-
+	//编程练习12-6
+	/*
 	double people_per_hour = 10;
 	double average_waitime = 0;
 	do{
@@ -45,6 +47,12 @@ int _tmain(int argc, _TCHAR* argv[])
 			cin >> people_per_hour;
 		}
 	} while (people_per_hour != 1);
+	*/
+	//编程练习13-1
+//	test_class_Classic();//编程练习13-1
+	test_class_DClassic();//编程练习13-2
+
+	
 	system("PAUSE");
 	return 0;
 }

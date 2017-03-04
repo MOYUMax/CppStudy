@@ -82,8 +82,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BankAcount.h" />
+    <ClInclude Include="Classic.h" />
     <ClInclude Include="complex0.h" />
     <ClInclude Include="Cow.h" />
+    <ClInclude Include="DClassic.h" />
     <ClInclude Include="Golf.h" />
     <ClInclude Include="List.h" />
     <ClInclude Include="Move.h" />
@@ -101,11 +103,14 @@
     <ClInclude Include="targetver.h" />
     <ClInclude Include="TestAllClass.h" />
     <ClInclude Include="vector.h" />
+    <ClInclude Include="Wine.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BankAcount.cpp" />
+    <ClCompile Include="Classic.cpp" />
     <ClCompile Include="complex0.cpp" />
     <ClCompile Include="Cow.cpp" />
+    <ClCompile Include="DClassic.cpp" />
     <ClCompile Include="Golf.cpp" />
     <ClCompile Include="List.cpp" />
     <ClCompile Include="Move.cpp" />
@@ -126,6 +131,7 @@
     <ClCompile Include="StudyClass10.cpp" />
     <ClCompile Include="TestAllClass.cpp" />
     <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="Wine.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

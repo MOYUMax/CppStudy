@@ -37,3 +37,7 @@ void test_class_Queue();
 bool newcustomer(double x);
 //±‡≥Ã¡∑œ∞12-6
 double bank2(double people_per_h);
+//±‡≥Ã¡∑œ∞13-1
+void test_class_Classic();
+//±‡≥Ã¡∑œ∞13-2
+void test_class_DClassic();

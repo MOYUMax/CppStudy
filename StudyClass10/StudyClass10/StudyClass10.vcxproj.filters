@@ -78,6 +78,15 @@
     <ClInclude Include="Queue.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Classic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DClassic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Wine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -138,6 +147,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Queue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Classic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DClassic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Wine.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

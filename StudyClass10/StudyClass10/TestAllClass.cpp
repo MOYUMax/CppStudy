@@ -20,6 +20,8 @@
 #include "Stock.h"
 #include "Stack12.h"
 #include "Queue.h"
+#include "Classic.h"
+#include "DClassic.h"
 
 void test_class_BA(){
 	BankAcount myacount = { "Max Wang", "612500008888", 99999.9 };
@@ -536,4 +538,70 @@ double bank2(double people_per_h){
 	}
 	cout << "Done!\n";
 	return aver_waitime;
+}
+//编程练习13-1
+void Bravo(const Cd & disk){
+	disk.Report();
+}
+void test_class_Classic(){
+	Cd c1("Beatles", "Capitol", 14, 35.5);
+	Classic c2 = Classic("Piano Sonata in B flat,Fantasia in C", "Alfred Brendel", "Philips", 2, 57.17);
+	Cd *pcd = &c1;
+
+	cout << "Using object driectly:\n";
+	int n = 0;
+	cout << n;
+	c1.Report();
+	c2.Report();
+
+	cout << "Using type cd * pointer to object:\n";
+	pcd->Report();
+	pcd = &c2;
+	pcd->Report();
+
+	cout << "Calling a function with a Cd reference argument:\n";
+	Bravo(c1);
+	Bravo(c2);
+
+	cout << "Testing assignment:";
+	Classic copy;
+	copy = c2;
+	copy.Report();
+
+	return;
+}
+//编程练习13-2
+void Bravo(const DCd & disk){
+	disk.Report();
+}
+void test_class_DClassic(){
+	DCd c1("Beatles", "Capitol", 14, 35.5);
+	DClassic c2 = DClassic("Piano Sonata in B flat,Fantasia in C", "Alfred Brendel", "Philips", 2, 57.17);
+	DCd *pcd = &c1;
+
+	cout << "Using object driectly:\n";
+	int n = 0;
+	cout << n;
+	c1.Report();
+	c2.Report();
+
+	cout << "Using type cd * pointer to object:\n";
+	pcd->Report();
+	pcd = &c2;
+	pcd->Report();
+
+	cout << "Calling a function with a Cd reference argument:\n";
+	Bravo(c1);
+	Bravo(c2);
+
+	cout << "Testing assignment:";
+	DClassic copy;
+	copy = c2;
+	copy.Report();
+
+	cout << "复制构造DClassic:" << endl;
+	DClassic last(c2);
+	last.Report();
+	cout << "BA";
+	return;
 }
