@@ -1,7 +1,7 @@
 // StudyClass10.cpp : 定义控制台应用程序的入口点。
 //
 
-//#include "stdafx.h"
+#include "stdafx.h"
 
 #include "TestAllClass.h"
 #include "DClassic.h"
@@ -50,8 +50,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	*/
 	//编程练习13-1
 //	test_class_Classic();//编程练习13-1
-	test_class_DClassic();//编程练习13-2
-
+//	test_class_DClassic();//编程练习13-2
+	test_class_Wine();//编程练习14-1
 	
 	system("PAUSE");
 	return 0;

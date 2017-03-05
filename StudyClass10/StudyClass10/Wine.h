@@ -5,6 +5,7 @@
 #include <valarray>//处理数组数值的类模板
 
 typedef valarray<int> ArrayInt;//名称简化
+
 template <class T1, class T2>//包含两个类型参数的 Pair 模板定义
 class Pair{
 private:
@@ -32,14 +33,16 @@ class Wine{
 private:
 	string label;
 	int years;
-	PairArray paint;
+	PairArray  paint;
 public:
 	Wine();
 	Wine(const char * lab, int y, const int yr[], const int bot[]);
 	Wine(const char * lab, int y);
 	void GetBottles();//接受用户输入
-	string & Label() const;
+	const string & Label() const;
 	int sum() const;//返回酒瓶数总和
+	void Show() const;//显示Wine对象信息
+	int input(int a);
 };
 
 #endif

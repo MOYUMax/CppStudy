@@ -1,4 +1,27 @@
-#pragma once
+#ifndef _TESTALLCLASS_H
+#define _TESTALLCLASS_H
+
+#include "BankAcount.h"
+
+#include "Person.h"
+#include "Golf.h"
+#include "Sales.h"
+#include "Stack.h"
+#include "Move.h"
+#include "Plorg.h"
+#include "List.h"
+#include "vector.h"
+#include "mytime3.h"
+#include "stonewt.h"
+#include "complex0.h"
+#include "Cow.h"
+#include "String2.h"
+#include "Stock.h"
+#include "Stack12.h"
+#include "Queue.h"
+#include "Classic.h"
+#include "DClassic.h"
+#include "Wine.h"
 
 //±‡≥Ã¡∑œ∞10-1
 void test_class_BA();
@@ -41,3 +64,7 @@ double bank2(double people_per_h);
 void test_class_Classic();
 //±‡≥Ã¡∑œ∞13-2
 void test_class_DClassic();
+//±‡≥Ã¡∑œ∞14-1
+void test_class_Wine();
+
+#endif
