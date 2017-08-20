@@ -1,6 +1,26 @@
 #include "stdafx.h"
 #include <cstdlib>
 #include <ctime>
+#include "BankAcount.h"
+#include "Person.h"
+#include "Golf.h"
+#include "Sales.h"
+#include "Stack.h"
+#include "Move.h"
+#include "Plorg.h"
+#include "List.h"
+#include "vector.h"
+#include "mytime3.h"
+#include "stonewt.h"
+#include "complex0.h"
+#include "Cow.h"
+#include "String2.h"
+#include "Stock.h"
+#include "Stack12.h"
+#include "Queue.h"
+#include "Classic.h"
+#include "DClassic.h"
+#include "Wine.h"
 #include "TestAllClass.h"
 
 void test_class_BA(){
@@ -601,6 +621,30 @@ void test_class_Wine(){
 	int y[YRS] = { 1993, 1995, 1998 };
 	int b[YRS] = { 48, 60, 72 };
 	Wine more("Gusing Grape Red", YRS, y, b);
+	more.Show();
+	cout << "Total bottles for " << more.Label()
+		<< ": " << more.sum() << endl;
+	cout << "Done!" << endl;
+	return;
+}
+
+//±à³ÌÁ·Ï°14-2
+void test_class_Wine_Private()
+{
+	cout << "Enter name of wine:";
+	char lab[50];
+	cin.getline(lab, 50);
+	cout << "Enter number of years:";
+	int yrs;
+	cin >> yrs;
+
+	Wine_Private holding(lab, yrs);
+	holding.GetBottles();
+	holding.Show();
+	const int YRS = 3;
+	int y[YRS] = { 1993, 1995, 1998 };
+	int b[YRS] = { 48, 60, 72 };
+	Wine_Private more("Gusing Grape Red", YRS, y, b);
 	more.Show();
 	cout << "Total bottles for " << more.Label()
 		<< ": " << more.sum() << endl;

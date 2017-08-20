@@ -93,6 +93,7 @@
     <ClInclude Include="Person.h" />
     <ClInclude Include="Plorg.h" />
     <ClInclude Include="Queue.h" />
+    <ClInclude Include="QueueTp.h" />
     <ClInclude Include="Sales.h" />
     <ClInclude Include="Stack.h" />
     <ClInclude Include="Stack12.h" />
@@ -118,6 +119,7 @@
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Plorg.cpp" />
     <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="QueueTp.cpp" />
     <ClCompile Include="Sales.cpp" />
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="Stack12.cpp" />

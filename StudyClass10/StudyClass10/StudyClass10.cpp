@@ -51,8 +51,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//±‡≥Ã¡∑œ∞13-1
 //	test_class_Classic();//±‡≥Ã¡∑œ∞13-1
 //	test_class_DClassic();//±‡≥Ã¡∑œ∞13-2
-	test_class_Wine();//±‡≥Ã¡∑œ∞14-1
-	
+//	test_class_Wine();//±‡≥Ã¡∑œ∞14-1
+	test_class_Wine_Private();//±‡≥Ã¡∑œ∞14-1
 	system("PAUSE");
 	return 0;
 }
